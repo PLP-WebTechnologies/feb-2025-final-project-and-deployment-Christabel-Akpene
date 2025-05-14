@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jewellery Store</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="cart_count.js" defer></script>
+    <script type="module" src="script.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/a384f42620.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="home-container">
+      <nav class="nav">
+        <div class="name">
+          <h3>Luxe Radiance</h3>
+        </div>
+        <div class="navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="shop.html">Shop </a>
+           </li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="cart-section">
+          <i class="fa-solid fa-heart"></i>
+
+          <div class="cart">
+            <i class="fa-solid fa-cart-shopping" id="cart-count"></i>
+            <span id="count"></span>
+          </div>
+        </div>
+
+      </nav>
+
+      <div class="home-text">
+        <div class="bodytext">
+            <p>
+                Where Beauty Meets <br />
+                Craft
+              </p>
+              <p>
+                Indulge in a collection that reflects sophistication, <br />crafted
+                for those who appreciate the finer things.
+              </p>
+        </div>
+
+        <div class="home-button">
+            <button id="shop-button">Shop Now</button>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="arrivals-container">
+      <h3>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+
+        New Arrivals
+
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </h3>
+
+      <div class="arrivals-images">
+
+
+        <div class="image">
+          <img src="images/bracelet6.jpg" alt="necklace 2" />
+          <p class="item-name">Round Diamond Studs</p>
+          <p class="item-price">$567.00</p>
+        </div>
+
+        <div class="image">
+          <img src="images/bracelet3.jpg" alt="necklace 3" />
+          <p class="item-name">Diamond Bee Necklace</p>
+          <p class="item-price">$2850.00</p>
+        </div>
+
+        <div class="image">
+          <img src="images/bracelet4.jpg" alt="necklace 4" />
+          <p class="item-name">Pearl Bracelet</p>
+          <p class="item-price">$450.00</p>
+        </div>
+      </div>
+    </section>
+    <hr />
+
+    <section class="about-container" id="about">
+      <div class="about-section">
+        <div class="about-us">
+          <h2>Why Choose Us</h2>
+          <p>
+            At Luxe Radiance, we understand that jewelry is more than an
+            accessory;
+          </p>
+          <p>It's a reflection of your inner beauty.</p>
+          <p>
+            Our jewelry doesn't just enhance your look—
+            <span class="span">it tells your story.</span>
+          </p>
+        </div>
+      </div>
+
+ 
+        <div class="testimonials">
+
+          <div class="testimonial-message">
+            <p class="text">
+              Luxe Radiance's designs are timeless and contemporary, making them
+              perfect for any occasion. I've discovered a hidden gem in fine
+              jewelry. This brand sets trends, not follows them.
+            </p>
+            <p class="name">Akosua Twumasi</p>
+          </div>
+
+          <div class="testimonial-message">
+            <p class="text">
+              When I first wore the necklace, I was blown away by its elegance.
+              It's unmatched in subtle beauty, and I'm constantly receiving
+              compliments on it. Truly a piece of art.
+            </p>
+            <p class="name">Nana Akua Afriyie</p>
+          </div>
+
+          <div class="testimonial-message">
+            <p class="text">
+              I'm in love with my latest purchase. The design is graceful, and
+              the quality is extraordinary. It's rare to find jewelry that's
+              both personal and luxurious.
+            </p>
+            <p class="name">Mawuena Dade</p>
+          </div>
+
+          <div class="testimonial-message">
+            <p class="text">
+              The quality and craftsmanship are unmatched. Wearing Luxe Radiance
+              jewelry makes me feel confident and elegant. It's not just an
+              accessory—it's a personal expression of style.
+            </p>
+            <p class="name">Musliha Sumaila</p>
+          </div>
+        </div>
+    </section>
+
+    <section class="contact-container" id="contact">
+      <div class="contact-page-header">
+        <h3>Contact Us</h3>
+        <p>
+          Want to learn more? Get in touch with us and we'll be happy to assist
+          you!
+        </p>
+        /
+      </div>
+
+      <div class="contact-section">
+        <div class="contact-us">
+          <div class="contact-details">
+            <p class="contact-header">CONTACT DETAILS</p>
+            <p>Phone: +233 567 8793</p>
+            <p>Email: luxe@info.com</p>
+            <p>Address: 124 Street, Okponglo, Accra</p>
+          </div>
+
+          <div class="follow-details">
+            <p class="contact-header">FOLLOW US</p>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-pinterest"></i>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <form>
+            <div class="form">
+              <label for="name">Name: </label>
+              <input type="text" id="name" />
+            </div>
+
+            <div class="form">
+              <label for="email">Email: </label>
+              <input type="email" id="email" />
+            </div>
+
+            <div class="message-element form">
+              <label for="message">Message: </label>
+              <textarea
+                name="message"
+                id="message"
+                cols="35"
+                rows="5"
+              ></textarea>
+            </div>
+
+            <button class="summit" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="footer-container">
+        <div class="name">
+          <p>Luxe Radiance</p>
+        </div>
+        <div class="footer-header">
+          <p>Info</p>
+          <p><a href="#">Home</a></p>
+          <p><a href="#">About</a></p>
+          <p><a href="#">Contact</a></p>
+        </div>
+        <div class="footer-header">
+          <p>Shop</p>
+          <p><a href="#">Necklace</a></p>
+          <p><a href="#">Earrings</a></p>
+          <p><a href="#">Bracelets</a></p>
+          <p><a href="#">Rings </a></p>
+        </div>
+        <div class="footer-header">
+          <p>Contact</p>
+          <p>124 Street, Okponglo, Accra</p>
+          <p>luxe@info.com</p>
+          <p>+233 567 8793</p>
+        </div>
+      </div>
+
+      <hr />
+      <div class="copyright">
+        Copyright <i class="fa-regular fa-copyright"></i> 2025 | Made with
+        <i class="fa-regular fa-heart"></i> by Akpene
+      </div>
+    </section>
+  </body>
+</html>
